@@ -13,6 +13,6 @@ people.sort(key=f)
 print(people)
 
 #instead of writing the function, use lambda
-people.sort(key=lambda person: person["house"])
+people.sort(key=lambda item: item["house"])
 
 print(people)

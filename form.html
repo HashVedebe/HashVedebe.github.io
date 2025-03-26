@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in html</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- 
+    python -m http.server
+-->
+    <div id="rechterkolom">
+        <h1>VRT - Welkom</h1>
+        <form action="">
+            <div>
+                <h6>LOG IN</h6>
+                <input type="text" placeholder="Full Name" name="name">
+                <input type="password" placeholder="Password" name="password">
+            </div>
+
+            <div>
+                <h6>BUSINESS UNIT</h6>
+                <input type="radio" name="BUnit" value="Multimediale Content">Multimediale content
+                <input type="radio" name="BUnit" value="Productie">Productie
+                <input type="radio" name="BUnit" value="Facilitair">Facilitair
+                <input type="radio" name="BUnit" value="Corporate Support">Corporate Support
+
+            </div>
+
+            <div>
+                <h6>DIRECTIE</h6>
+                <input name= "directie" list="directies" placeholder="Directie">
+                <datalist id="directies">
+                    <option value="Ambities DC"></option> 
+                    <option value="CEO en RVB"></option>
+                    <option value="Publieke Opdracht"></option>
+                    <option value="Content"></option>
+                    <option value="Informatie"></option>
+                    <option value="T&I"></option>
+                    <option value="Partnership & Operations"></option>
+                    <option value="Talent & Organisatie"></option>
+                    <option value="Connectie"></option>
+                    <option value="Herstructurering en transformatie"></option>
+                    <option value="VRTNR"></option>
+                    <option value="Brussels Philharmonic"></option>
+                    <option value="Nieuwbouw"></option>
+                    <option value="Oude- KP's-OP's-PO's"></option>
+                </datalist>
+            </div>
+            <input type="submit" name="Submit">
+        </form>   
+    </div>    
+</body>
+</html>
