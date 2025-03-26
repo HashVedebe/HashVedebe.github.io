@@ -22,3 +22,8 @@ print(s)
 s.add(3)
 s.remove(2)
 print(s)
+
+print(f"There are {len(s)} elements in the list")
+
+geef_input = input("Geef een zin in: ")
+print(f"Uw zin bevat {len(geef_input)} lettertekens")
