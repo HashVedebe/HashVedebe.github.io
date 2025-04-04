@@ -6,8 +6,8 @@ for i in range(6):
     
 names = ["Alex", "Manu", "Hilde", "Wingo"]
 
-for name in names:
-    print(name)
+for n in names:
+    print(n)
     
 for characters in names[0]:
     print(characters)

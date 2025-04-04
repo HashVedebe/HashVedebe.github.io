@@ -1,8 +1,8 @@
 import sys
 
 try:
-    x=int(input("Give x: "))
-    y = int(input("Give y: "))
+    x=float(input("Give x: "))
+    y = float(input("Give y: "))
 except ValueError:
     print("Error: invalid input. Not a number")
     sys.exit(1)
