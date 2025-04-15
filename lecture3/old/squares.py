@@ -1,4 +1,4 @@
-from old.functions import square
+from functions import square
 
 
 for i in range(10):

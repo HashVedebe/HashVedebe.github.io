@@ -1,11 +1,11 @@
-def announce(f):
-    def wrapper():
+def kwak_announce(f):
+    def kip_wrapper():
         print("About to run the function")
         f()
         print("Done running the function")
-    return wrapper
+    return kip_wrapper
 
-@announce
+@kwak_announce
 def hello():
     print("hello world and mars")
     

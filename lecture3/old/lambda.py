@@ -12,7 +12,7 @@ people.sort(key=f)
 
 print(people)
 
-#instead of writing the function, use lambda
-people.sort(key=lambda item: item["house"])
+#instead of writing the function, use lambda, sorted by house
+people.sort(key=lambda kip: kip["house"])
 
 print(people)

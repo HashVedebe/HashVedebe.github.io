@@ -1,4 +1,5 @@
 """
+class can be seen as a 'type of object'
 class Point():
     def __init__(self, x, y):
         self.x = x
